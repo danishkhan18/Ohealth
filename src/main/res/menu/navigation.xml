@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:visible="true" />
+    <item
+        android:id="@+id/BMI"
+        android:icon="@drawable/bmi"
+        android:title="BMI"
+        android:visible="true" />
+    <item
+        android:id="@+id/Pedometer"
+        android:icon="@drawable/runningman"
+        android:title="Pedometer"
+        android:visible="true" />
+    <item
+        android:id="@+id/Trends"
+        android:icon="@drawable/trends"
+        android:title="Trends"
+        android:visible="true" />
+    <item
+        android:id="@+id/Nearby"
+        android:enabled="true"
+        android:icon="@drawable/nearby"
+        android:title="Nearby" />
+</menu>
